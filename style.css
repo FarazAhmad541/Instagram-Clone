@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: black;
+    font-size: 16px;
+    margin: auto;
+}
+
+header{
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.logo{
+    height: auto;
+    width: 127px;   
+}
+
+.user-avatar, .post-avatar{
+   height: 34px;
+   width: 34px;
+   border-radius: 50%;   
+}
+.post{
+    background-color: white;
+}
+.user-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.user-data{
+    padding-left: 7px;
+}
+
+.user-location{
+    font-family: 'Source Sans Pro';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    margin: 0;
+    text-align: left;
+}
+.post-image{
+    width: 100%;
+}
+.interaction-section{
+    padding: 20px 10px 10px 10px;
+    
+}
+.interaction-btn{
+    padding-right: 10px;
+    width: 23px;
+    height: 23px;
+}
+
+.interaction-btn:hover,
+.interaction-btn:focus{
+    opacity: 70%;
+}
+
+.like-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0px 10px 10px 10px;
+}
+
+.number, .likes, .comment-name, .user-name{
+    font-family: 'Source Sans Pro';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    padding-right: 5px;
+    margin: 0;
+    text-align: left;
+
+}
+.comment-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 10px 10px 10px;
+
+}
+.comment{
+    font-family: Source Sans Pro;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+p{
+    margin: 0;
+}
